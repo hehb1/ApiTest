@@ -1,0 +1,39 @@
+-
+  feature: 流程用例
+  story: 登录接口
+  title: 登录成功
+  request:
+    method: post
+    url: http://101.34.221.219:8010/api.php
+    params:
+      s: user/login
+    json:
+      accounts: baili
+      pwd: baili123
+      type: username
+  extract:
+    token1: [json, '$.data.token', 0]
+  validate:
+    equals:
+      断言状态码为200: [200, status_code]
+-
+  feature: 流程用例
+  story: 订单列表
+  title: 成功获取订单列表
+  request:
+    method: post
+    url: http://101.34.221.219:8010/api.php
+    params:
+      s: order/index
+      token: ${read_yaml(token1)}
+    json:
+      page: '1'
+      keywords: ''
+      status: '-1'
+      is_more: '1'
+  extract:
+    order_code: [json, '$.code', 0]
+  validate:
+    equals:
+      断言状态码为200: [200, status_code]
+      断言code为0: [0, '${read_yaml(order_code)}']

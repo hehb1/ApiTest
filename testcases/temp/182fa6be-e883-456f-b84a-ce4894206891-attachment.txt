@@ -1,0 +1,4 @@
+INFO     pytest_result_log:plugin.py:122 --Start: testcases/test_all_case.py::TestAllCase::test_login_shopxo[caseinfo0]--
+INFO     commons.requests_util:test_all_case.py:35 YAML文件名:login_shopxo.yaml
+INFO     commons.requests_util:main_util.py:15 模块>接口>用例:商城模块>登录shopxo>成功登录shopxo
+INFO     pytest_result_log:plugin.py:128 ---End: testcases/test_all_case.py::TestAllCase::test_login_shopxo[caseinfo0]---

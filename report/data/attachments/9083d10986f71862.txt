@@ -1,0 +1,10 @@
+INFO     pytest_result_log:plugin.py:122 --Start: testcases/test_all_case.py::TestAllCase::test_login_shopxo[caseinfo1]--
+INFO     commons.requests_util:test_all_case.py:35 YAML文件名:login_shopxo.yaml
+INFO     commons.requests_util:main_util.py:15 模块>接口>用例:商城模块>登录shopxo>成功登录shopxo
+INFO     commons.requests_util:requests_util.py:27 请求json参数:{'accounts': 'baili', 'pwd': 'baili', 'type': 'username', 'verify': 'rib5'}
+INFO     commons.requests_util:requests_util.py:27 请求method参数:post
+INFO     commons.requests_util:requests_util.py:27 请求params参数:{'s': 'user/login', 'application': 'app', 'application_client_type': 'h5'}
+INFO     commons.requests_util:requests_util.py:27 请求url参数:http://101.34.221.219:8010/api.php
+INFO     commons.requests_util:requests_util.py:31 响应数据: {'msg': '密码格式 6~18 个字符', 'code': -1, 'data': ''}
+INFO     commons.requests_util:main_util.py:29 断言成功!
+INFO     pytest_result_log:plugin.py:128 ---End: testcases/test_all_case.py::TestAllCase::test_login_shopxo[caseinfo1]---

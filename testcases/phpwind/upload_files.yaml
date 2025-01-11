@@ -1,0 +1,12 @@
+-
+  feature: 微信公众号
+  story: 上传文件
+  title: 成功上传文件
+  request:
+    method: post
+    url: https://api.weixin.qq.com/cgi-bin/media/uploadimg
+    params:
+      access_token: ${read_yaml(access_token)}
+    files:
+      media: E:\\picture\\unsave.jpg
+  validate: null

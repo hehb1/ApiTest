@@ -1,0 +1,16 @@
+-
+  feature: 商城模块
+  story: 订单列表
+  title: 成功获取订单列表
+  request:
+    method: post
+    url: http://101.34.221.219:8010/api.php
+    params:
+      s: order/index
+      token: ${read_yaml(token)}
+    json:
+      page: '1'
+      keywords: ''
+      status: '-1'
+      is_more: '1'
+  validate: null

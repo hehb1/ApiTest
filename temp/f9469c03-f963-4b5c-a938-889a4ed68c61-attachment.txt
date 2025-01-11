@@ -1,0 +1,10 @@
+INFO     pytest_result_log:plugin.py:122 ---Start: testcases/test_all_case.py::TestAllCase::test_edit_flag[caseinfo0]----
+INFO     commons.requests_util:test_all_case.py:35 YAML文件名:edit_flag.yaml
+INFO     commons.requests_util:main_util.py:15 模块>接口>用例:微信公众号>编辑标签>成功编辑标签
+INFO     commons.requests_util:requests_util.py:27 请求json参数:{'tag': {'id': '3830', 'name': '杭州'}}
+INFO     commons.requests_util:requests_util.py:27 请求method参数:post
+INFO     commons.requests_util:requests_util.py:27 请求params参数:{'access_token': '84_9MlqXPbwzeKkY9WGgoj8vPEobpK1EownvWNlwBbz22FpUp8X16frk9WJSxzMGiqYrfSe8aNQKms2DioXacZpKost262_QxWUC_C3EOh3QcB6bq-wis-d4AwZMrAVUOaACAONH', 'application': 'app', 'application_client_type': 'h5'}
+INFO     commons.requests_util:requests_util.py:27 请求url参数:https://api.weixin.qq.com/cgi-bin/tags/update
+INFO     commons.requests_util:requests_util.py:31 响应数据: {'errcode': -1, 'errmsg': 'system error hint: [uEAEDe3Dk-7G1UJa] rid: 66fcb2d7-2beff559-145cc099'}
+WARNING  commons.requests_util:main_util.py:31 此用例没有断言!
+INFO     pytest_result_log:plugin.py:128 ----End: testcases/test_all_case.py::TestAllCase::test_edit_flag[caseinfo0]-----

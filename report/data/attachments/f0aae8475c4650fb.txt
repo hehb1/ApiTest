@@ -1,0 +1,9 @@
+INFO     pytest_result_log:plugin.py:122 ---Start: testcases/test_all_case.py::TestAllCase::test_get_token[caseinfo0]----
+INFO     commons.requests_util:test_all_case.py:35 YAML文件名:get_token.yaml
+INFO     commons.requests_util:main_util.py:15 模块>接口>用例:微信公众号>获取token>成功获取token
+INFO     commons.requests_util:requests_util.py:27 请求method参数:get
+INFO     commons.requests_util:requests_util.py:27 请求params参数:{'appid': 'wx3bfc4b9a1eadad14', 'grant_type': 'client_credential', 'secret': '16bdc72d8d3ba91c45865447f360bf3b', 'application': 'app', 'application_client_type': 'h5'}
+INFO     commons.requests_util:requests_util.py:27 请求url参数:https://api.weixin.qq.com/cgi-bin/token
+INFO     commons.requests_util:requests_util.py:31 响应数据: {'access_token': '84_9MlqXPbwzeKkY9WGgoj8vPEobpK1EownvWNlwBbz22FpUp8X16frk9WJSxzMGiqYrfSe8aNQKms2DioXacZpKost262_QxWUC_C3EOh3QcB6bq-wis-d4AwZMrAVUOaACAONH', 'expires_in': 7200}
+INFO     commons.requests_util:main_util.py:29 断言成功!
+INFO     pytest_result_log:plugin.py:128 ----End: testcases/test_all_case.py::TestAllCase::test_get_token[caseinfo0]-----

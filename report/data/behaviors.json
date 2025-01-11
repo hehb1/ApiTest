@@ -1,0 +1,166 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "项目名称：码尚教育",
+    "children" : [ {
+      "name" : "微信公众号",
+      "children" : [ {
+        "name" : "获取token",
+        "children" : [ {
+          "name" : "成功获取token",
+          "uid" : "595555c86fb02451",
+          "parentUid" : "5e1c5f73ffac23039ed75e1d1742ec56",
+          "status" : "passed",
+          "time" : {
+            "start" : 1727836885557,
+            "stop" : 1727836886282,
+            "duration" : 725
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'feature': '微信公众号', 'story': '获取token', 'title': '成功获取token', 'request': {'method': 'get', 'url': 'https://api.weixin.qq.com/cgi-bin/token', 'params': {'grant_type': 'client_credential', 'appid': 'wx3bfc4b9a1eadad14', 'secret': '16bdc72d8d3ba91c45865447f360bf3b'}}, 'extract': {'access_token': ['json', '$.access_token', 0], 'expires_in': ['json', '$.expires_in', 0]}, 'validate': {'equals': {'断言状态码为200': [200, 'status_code'], '断言有效期为7200': [7200, '${read_yaml(expires_in)}']}}}" ]
+        } ],
+        "uid" : "5e1c5f73ffac23039ed75e1d1742ec56"
+      }, {
+        "name" : "编辑标签",
+        "children" : [ {
+          "name" : "成功编辑标签",
+          "uid" : "b41e1bf241ea9f7d",
+          "parentUid" : "f564687a2f0703673ddd2c7a9455bd5f",
+          "status" : "passed",
+          "time" : {
+            "start" : 1727836887059,
+            "stop" : 1727836887230,
+            "duration" : 171
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'feature': '微信公众号', 'story': '编辑标签', 'title': '成功编辑标签', 'request': {'method': 'post', 'url': 'https://api.weixin.qq.com/cgi-bin/tags/update', 'params': {'access_token': '${read_yaml(access_token)}'}, 'json': {'tag': {'id': '3830', 'name': '杭州'}}}, 'validate': None}" ]
+        } ],
+        "uid" : "f564687a2f0703673ddd2c7a9455bd5f"
+      }, {
+        "name" : "查询标签",
+        "children" : [ {
+          "name" : "成功查询标签",
+          "uid" : "8f2aee4b780aea87",
+          "parentUid" : "94de6137468c9a145c102a78d4d60734",
+          "status" : "passed",
+          "time" : {
+            "start" : 1727836887232,
+            "stop" : 1727836887341,
+            "duration" : 109
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'feature': '微信公众号', 'story': '查询标签', 'title': '成功查询标签', 'request': {'method': 'get', 'url': 'https://api.weixin.qq.com/cgi-bin/tags/get', 'params': {'access_token': '${read_yaml(access_token)}'}}, 'validate': None}" ]
+        } ],
+        "uid" : "94de6137468c9a145c102a78d4d60734"
+      }, {
+        "name" : "上传文件",
+        "children" : [ {
+          "name" : "成功上传文件",
+          "uid" : "fe246e161c788eff",
+          "parentUid" : "1f2f2bed71f8608fc839936e246a9408",
+          "status" : "passed",
+          "time" : {
+            "start" : 1727836887344,
+            "stop" : 1727836887848,
+            "duration" : 504
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'feature': '微信公众号', 'story': '上传文件', 'title': '成功上传文件', 'request': {'method': 'post', 'url': 'https://api.weixin.qq.com/cgi-bin/media/uploadimg', 'params': {'access_token': '${read_yaml(access_token)}'}, 'files': {'media': 'E:\\\\\\\\picture\\\\\\\\unsave.jpg'}}, 'validate': None}" ]
+        } ],
+        "uid" : "1f2f2bed71f8608fc839936e246a9408"
+      } ],
+      "uid" : "a18274e6808d4a2237a8a9edee74b097"
+    }, {
+      "name" : "商城模块",
+      "children" : [ {
+        "name" : "登录shopxo",
+        "children" : [ {
+          "name" : "成功登录shopxo",
+          "uid" : "cfd1db16492bfe33",
+          "parentUid" : "8e692a24ee38e7551f2428f1ffc9eb9c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1727836886284,
+            "stop" : 1727836886453,
+            "duration" : 169
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'extract': {'msg': ['json', '$.msg', 0], 'token': ['text', '\"token\":\"(.*?)\"', 0]}, 'feature': '商城模块', 'request': {'json': {'accounts': 'baili', 'pwd': 'baili123', 'type': 'username', 'verify': 'rib5'}, 'method': 'post', 'params': {'s': 'user/login'}, 'url': '${env(shopxo_base_url)}/api.php'}, 'story': '登录shopxo', 'title': '成功登录shopxo', 'validate': {'equals': {'msg内容正确': ['登录成功', '${read_yaml(msg)}'], '断言状态码为200': [200, 'status_code']}}}" ]
+        }, {
+          "name" : "成功登录shopxo",
+          "uid" : "322413c15b316760",
+          "parentUid" : "8e692a24ee38e7551f2428f1ffc9eb9c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1727836886455,
+            "stop" : 1727836886548,
+            "duration" : 93
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'extract': {'msg': ['json', '$.msg', 0], 'token': ['text', '\"token\":\"(.*?)\"', 0]}, 'feature': '商城模块', 'request': {'json': {'accounts': 'baili', 'pwd': 'baili', 'type': 'username', 'verify': 'rib5'}, 'method': 'post', 'params': {'s': 'user/login'}, 'url': '${env(shopxo_base_url)}/api.php'}, 'story': '登录shopxo', 'title': '成功登录shopxo', 'validate': {'equals': {'msg内容正确': ['密码格式 6~18 个字符', '${read_yaml(msg)}'], '断言状态码为200': [200, 'status_code']}}}" ]
+        }, {
+          "name" : "成功登录shopxo",
+          "uid" : "9554f4b622adb8e8",
+          "parentUid" : "8e692a24ee38e7551f2428f1ffc9eb9c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1727836886550,
+            "stop" : 1727836886648,
+            "duration" : 98
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'extract': {'msg': ['json', '$.msg', 0], 'token': ['text', '\"token\":\"(.*?)\"', 0]}, 'feature': '商城模块', 'request': {'json': {'accounts': 'baili123', 'pwd': 'baili123', 'type': 'username', 'verify': 'rib5'}, 'method': 'post', 'params': {'s': 'user/login'}, 'url': '${env(shopxo_base_url)}/api.php'}, 'story': '登录shopxo', 'title': '成功登录shopxo', 'validate': {'equals': {'msg内容正确': ['密码错误', '${read_yaml(msg)}'], '断言状态码为200': [200, 'status_code']}}}" ]
+        } ],
+        "uid" : "8e692a24ee38e7551f2428f1ffc9eb9c"
+      }, {
+        "name" : "订单列表",
+        "children" : [ {
+          "name" : "成功获取订单列表",
+          "uid" : "56beda3ef6906e90",
+          "parentUid" : "e727ce13ddf709c3329a2023b1dc6c11",
+          "status" : "passed",
+          "time" : {
+            "start" : 1727836887859,
+            "stop" : 1727836888099,
+            "duration" : 240
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'feature': '商城模块', 'story': '订单列表', 'title': '成功获取订单列表', 'request': {'method': 'post', 'url': 'http://101.34.221.219:8010/api.php', 'params': {'s': 'order/index', 'token': '${read_yaml(token)}'}, 'json': {'page': '1', 'keywords': '', 'status': '-1', 'is_more': '1'}}, 'validate': None}" ]
+        } ],
+        "uid" : "e727ce13ddf709c3329a2023b1dc6c11"
+      } ],
+      "uid" : "fd96c20201bc4077eba0318aa178f89b"
+    }, {
+      "name" : "流程用例",
+      "children" : [ {
+        "name" : "订单列表",
+        "children" : [ {
+          "name" : "成功获取订单列表",
+          "uid" : "8761174593ce5e97",
+          "parentUid" : "cd45d8bfbac4cbdba5d43d6c599f1edf",
+          "status" : "passed",
+          "time" : {
+            "start" : 1727836886650,
+            "stop" : 1727836887056,
+            "duration" : 406
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "[{'feature': '流程用例', 'story': '登录接口', 'title': '登录成功', 'request': {'method': 'post', 'url': 'http://101.34.221.219:8010/api.php', 'params': {'s': 'user/login'}, 'json': {'accounts': 'baili', 'pwd': 'baili123', 'type': 'username'}}, 'extract': {'token1': ['json', '$.data.token', 0]}, 'validate': {'equals': {'断言状态码为200': [200, 'status_code']}}}, {'feature': '流程用例', 'story': '订单列表', 'title': '成功获取订单列表', 'request': {'method': 'post', 'url': 'http://101.34.221.219:8010/api.php', 'params': {'s': 'order/index', 'token': '${read_yaml(token1)}'}, 'json': {'page': '1', 'keywords': '', 'status': '-1', 'is_more': '1'}}, 'extract': {'order_code': ['json', '$.code', 0]}, 'validate': {'equals': {'断言状态码为200': [200, 'status_code'], '断言code为0': [0, '${read_yaml(order_code)}']}}}]" ]
+        } ],
+        "uid" : "cd45d8bfbac4cbdba5d43d6c599f1edf"
+      } ],
+      "uid" : "c430fbf1080e541433a3ca18a8c949b1"
+    } ],
+    "uid" : "20f762520ce3fff9588246c59c515d92"
+  } ]
+}

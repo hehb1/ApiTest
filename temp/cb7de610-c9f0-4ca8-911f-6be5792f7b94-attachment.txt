@@ -1,0 +1,10 @@
+INFO     pytest_result_log:plugin.py:122 --Start: testcases/test_all_case.py::TestAllCase::test_upload_files[caseinfo0]--
+INFO     commons.requests_util:test_all_case.py:35 YAML文件名:upload_files.yaml
+INFO     commons.requests_util:main_util.py:15 模块>接口>用例:微信公众号>上传文件>成功上传文件
+INFO     commons.requests_util:requests_util.py:27 请求files参数:{'media': <_io.BufferedReader name='E:\\\\picture\\\\unsave.jpg'>}
+INFO     commons.requests_util:requests_util.py:27 请求method参数:post
+INFO     commons.requests_util:requests_util.py:27 请求params参数:{'access_token': '84_9MlqXPbwzeKkY9WGgoj8vPEobpK1EownvWNlwBbz22FpUp8X16frk9WJSxzMGiqYrfSe8aNQKms2DioXacZpKost262_QxWUC_C3EOh3QcB6bq-wis-d4AwZMrAVUOaACAONH', 'application': 'app', 'application_client_type': 'h5'}
+INFO     commons.requests_util:requests_util.py:27 请求url参数:https://api.weixin.qq.com/cgi-bin/media/uploadimg
+INFO     commons.requests_util:requests_util.py:33 响应数据: {"url":"http:\/\/mmbiz.qpic.cn\/sz_mmbiz_jpg\/JbRHPj0nOiasHGN25K8hMMXzMhrOVqXfLNHN01vhfOUHrKgficzx38Tm9ic1FuzlYnl7lmqsNPuub8a7yLnWTZG0w\/0?from=appmsg"}
+WARNING  commons.requests_util:main_util.py:31 此用例没有断言!
+INFO     pytest_result_log:plugin.py:128 ---End: testcases/test_all_case.py::TestAllCase::test_upload_files[caseinfo0]---

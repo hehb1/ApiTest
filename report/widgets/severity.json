@@ -1,0 +1,91 @@
+[ {
+  "uid" : "8f2aee4b780aea87",
+  "name" : "成功查询标签",
+  "time" : {
+    "start" : 1727836887232,
+    "stop" : 1727836887341,
+    "duration" : 109
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "322413c15b316760",
+  "name" : "成功登录shopxo",
+  "time" : {
+    "start" : 1727836886455,
+    "stop" : 1727836886548,
+    "duration" : 93
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fe246e161c788eff",
+  "name" : "成功上传文件",
+  "time" : {
+    "start" : 1727836887344,
+    "stop" : 1727836887848,
+    "duration" : 504
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9554f4b622adb8e8",
+  "name" : "成功登录shopxo",
+  "time" : {
+    "start" : 1727836886550,
+    "stop" : 1727836886648,
+    "duration" : 98
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cfd1db16492bfe33",
+  "name" : "成功登录shopxo",
+  "time" : {
+    "start" : 1727836886284,
+    "stop" : 1727836886453,
+    "duration" : 169
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "56beda3ef6906e90",
+  "name" : "成功获取订单列表",
+  "time" : {
+    "start" : 1727836887859,
+    "stop" : 1727836888099,
+    "duration" : 240
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b41e1bf241ea9f7d",
+  "name" : "成功编辑标签",
+  "time" : {
+    "start" : 1727836887059,
+    "stop" : 1727836887230,
+    "duration" : 171
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "595555c86fb02451",
+  "name" : "成功获取token",
+  "time" : {
+    "start" : 1727836885557,
+    "stop" : 1727836886282,
+    "duration" : 725
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8761174593ce5e97",
+  "name" : "成功获取订单列表",
+  "time" : {
+    "start" : 1727836886650,
+    "stop" : 1727836887056,
+    "duration" : 406
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

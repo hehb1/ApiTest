@@ -1,0 +1,129 @@
+{
+  "uid" : "56beda3ef6906e90",
+  "name" : "成功获取订单列表",
+  "fullName" : "testcases.test_all_case.TestAllCase#test_order_list",
+  "historyId" : "b3062a576009fc7d01ec09f7eafb052f",
+  "time" : {
+    "start" : 1727836887859,
+    "stop" : 1727836888099,
+    "duration" : 240
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1727836885556,
+      "stop" : 1727836885556,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1727836885556,
+      "stop" : 1727836885556,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "clean_yaml",
+    "time" : {
+      "start" : 1727836885556,
+      "stop" : 1727836885556,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "22b0175bdb749335",
+      "name" : "log",
+      "source" : "22b0175bdb749335.txt",
+      "type" : "text/plain",
+      "size" : 32884
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "商城模块"
+  }, {
+    "name" : "story",
+    "value" : "订单列表"
+  }, {
+    "name" : "epic",
+    "value" : "项目名称：码尚教育"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_all_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAllCase"
+  }, {
+    "name" : "host",
+    "value" : "PC-20221118TCOJ"
+  }, {
+    "name" : "thread",
+    "value" : "2864-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_all_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "caseinfo",
+    "value" : "{'feature': '商城模块', 'story': '订单列表', 'title': '成功获取订单列表', 'request': {'method': 'post', 'url': 'http://101.34.221.219:8010/api.php', 'params': {'s': 'order/index', 'token': '${read_yaml(token)}'}, 'json': {'page': '1', 'keywords': '', 'status': '-1', 'is_more': '1'}}, 'validate': None}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "56beda3ef6906e90.json",
+  "parameterValues" : [ "{'feature': '商城模块', 'story': '订单列表', 'title': '成功获取订单列表', 'request': {'method': 'post', 'url': 'http://101.34.221.219:8010/api.php', 'params': {'s': 'order/index', 'token': '${read_yaml(token)}'}, 'json': {'page': '1', 'keywords': '', 'status': '-1', 'is_more': '1'}}, 'validate': None}" ]
+}

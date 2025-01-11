@@ -1,0 +1,10 @@
+INFO     pytest_result_log:plugin.py:122 --Start: testcases/test_all_case.py::TestAllCase::test_login_shopxo[caseinfo0]--
+INFO     commons.requests_util:test_all_case.py:35 YAML文件名:login_shopxo.yaml
+INFO     commons.requests_util:main_util.py:15 模块>接口>用例:商城模块>登录shopxo>成功登录shopxo
+INFO     commons.requests_util:requests_util.py:27 请求json参数:{'accounts': 'baili', 'pwd': 'baili123', 'type': 'username', 'verify': 'rib5'}
+INFO     commons.requests_util:requests_util.py:27 请求method参数:post
+INFO     commons.requests_util:requests_util.py:27 请求params参数:{'s': 'user/login', 'application': 'app', 'application_client_type': 'h5'}
+INFO     commons.requests_util:requests_util.py:27 请求url参数:http://101.34.221.219:8010/api.php
+INFO     commons.requests_util:requests_util.py:31 响应数据: {'msg': '登录成功', 'code': 0, 'data': {'id': '548', 'alipay_openid': '', 'weixin_openid': '', 'weixin_unionid': '', 'weixin_web_openid': '', 'baidu_openid': '', 'toutiao_openid': '', 'qq_openid': '', 'qq_unionid': '', 'status': '0', 'token': 'd44f092c8c215aaab4d62c19e782fb97', 'username': 'baili', 'nickname': 'shuo', 'mobile': '', 'email': '', 'gender': '1', 'avatar': 'http://101.34.221.219:8010/static/upload/images/user_avatar/compr/2024/09/28/20240928190633554204913.png', 'province': '', 'city': '', 'birthday': '1670774400', 'address': '', 'integral': '0', 'locking_integral': '0', 'referrer': '0', 'is_delete_time': '0', 'add_time': '1654095202', 'upd_time': '1727836886', 'add_time_text': '2022-06-01 22:53:22', 'upd_time_text': '2024-10-02 10:41:26', 'gender_text': '女', 'birthday_text': '2022-12-12', 'mobile_security': '', 'email_security': '', 'user_name_view': 'baili', 'is_mandatory_bind_mobile': 0}}
+INFO     commons.requests_util:main_util.py:29 断言成功!
+INFO     pytest_result_log:plugin.py:128 ---End: testcases/test_all_case.py::TestAllCase::test_login_shopxo[caseinfo0]---

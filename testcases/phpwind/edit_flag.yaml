@@ -1,0 +1,12 @@
+-
+  feature: 微信公众号
+  story: 编辑标签
+  title: 成功编辑标签
+  request:
+    method: post
+    url: https://api.weixin.qq.com/cgi-bin/tags/update
+    params:
+      access_token: ${read_yaml(access_token)}
+    json:
+      tag: {"id": "3830", "name": "杭州"}
+  validate: null

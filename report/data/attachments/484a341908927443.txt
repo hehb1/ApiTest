@@ -1,0 +1,9 @@
+INFO     pytest_result_log:plugin.py:122 --Start: testcases/test_all_case.py::TestAllCase::test_select_flag[caseinfo0]---
+INFO     commons.requests_util:test_all_case.py:35 YAML文件名:select_flag.yaml
+INFO     commons.requests_util:main_util.py:15 模块>接口>用例:微信公众号>查询标签>成功查询标签
+INFO     commons.requests_util:requests_util.py:27 请求method参数:get
+INFO     commons.requests_util:requests_util.py:27 请求params参数:{'access_token': '84_9MlqXPbwzeKkY9WGgoj8vPEobpK1EownvWNlwBbz22FpUp8X16frk9WJSxzMGiqYrfSe8aNQKms2DioXacZpKost262_QxWUC_C3EOh3QcB6bq-wis-d4AwZMrAVUOaACAONH', 'application': 'app', 'application_client_type': 'h5'}
+INFO     commons.requests_util:requests_util.py:27 请求url参数:https://api.weixin.qq.com/cgi-bin/tags/get
+INFO     commons.requests_util:requests_util.py:31 响应数据: {'tags': [{'id': 2, 'name': '星标组', 'count': 0}, {'id': 100, 'name': '\\u4e2d\\u534e99189', 'count': 0}]}
+WARNING  commons.requests_util:main_util.py:31 此用例没有断言!
+INFO     pytest_result_log:plugin.py:128 ---End: testcases/test_all_case.py::TestAllCase::test_select_flag[caseinfo0]----

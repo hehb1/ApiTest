@@ -1,0 +1,129 @@
+{
+  "uid" : "8761174593ce5e97",
+  "name" : "成功获取订单列表",
+  "fullName" : "testcases.test_all_case.TestAllCase#test_flow",
+  "historyId" : "0b860f435f296f71d3400d5c002ad852",
+  "time" : {
+    "start" : 1727836886650,
+    "stop" : 1727836887056,
+    "duration" : 406
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1727836885556,
+      "stop" : 1727836885556,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1727836885556,
+      "stop" : 1727836885556,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "clean_yaml",
+    "time" : {
+      "start" : 1727836885556,
+      "stop" : 1727836885556,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9806146b379c812a",
+      "name" : "log",
+      "source" : "9806146b379c812a.txt",
+      "type" : "text/plain",
+      "size" : 34554
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "流程用例"
+  }, {
+    "name" : "story",
+    "value" : "订单列表"
+  }, {
+    "name" : "epic",
+    "value" : "项目名称：码尚教育"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_all_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAllCase"
+  }, {
+    "name" : "host",
+    "value" : "PC-20221118TCOJ"
+  }, {
+    "name" : "thread",
+    "value" : "2864-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_all_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "caseinfo",
+    "value" : "[{'feature': '流程用例', 'story': '登录接口', 'title': '登录成功', 'request': {'method': 'post', 'url': 'http://101.34.221.219:8010/api.php', 'params': {'s': 'user/login'}, 'json': {'accounts': 'baili', 'pwd': 'baili123', 'type': 'username'}}, 'extract': {'token1': ['json', '$.data.token', 0]}, 'validate': {'equals': {'断言状态码为200': [200, 'status_code']}}}, {'feature': '流程用例', 'story': '订单列表', 'title': '成功获取订单列表', 'request': {'method': 'post', 'url': 'http://101.34.221.219:8010/api.php', 'params': {'s': 'order/index', 'token': '${read_yaml(token1)}'}, 'json': {'page': '1', 'keywords': '', 'status': '-1', 'is_more': '1'}}, 'extract': {'order_code': ['json', '$.code', 0]}, 'validate': {'equals': {'断言状态码为200': [200, 'status_code'], '断言code为0': [0, '${read_yaml(order_code)}']}}}]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8761174593ce5e97.json",
+  "parameterValues" : [ "[{'feature': '流程用例', 'story': '登录接口', 'title': '登录成功', 'request': {'method': 'post', 'url': 'http://101.34.221.219:8010/api.php', 'params': {'s': 'user/login'}, 'json': {'accounts': 'baili', 'pwd': 'baili123', 'type': 'username'}}, 'extract': {'token1': ['json', '$.data.token', 0]}, 'validate': {'equals': {'断言状态码为200': [200, 'status_code']}}}, {'feature': '流程用例', 'story': '订单列表', 'title': '成功获取订单列表', 'request': {'method': 'post', 'url': 'http://101.34.221.219:8010/api.php', 'params': {'s': 'order/index', 'token': '${read_yaml(token1)}'}, 'json': {'page': '1', 'keywords': '', 'status': '-1', 'is_more': '1'}}, 'extract': {'order_code': ['json', '$.code', 0]}, 'validate': {'equals': {'断言状态码为200': [200, 'status_code'], '断言code为0': [0, '${read_yaml(order_code)}']}}}]" ]
+}

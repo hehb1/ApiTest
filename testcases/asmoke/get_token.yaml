@@ -1,0 +1,23 @@
+- feature: 微信公众号
+  story: 获取token
+  title: 成功获取token
+  request:
+    method: get
+    url: https://api.weixin.qq.com/cgi-bin/token
+    params:
+      grant_type: client_credential
+      appid: wx3bfc4b9a1eadad14
+      secret: 16bdc72d8d3ba91c45865447f360bf3b
+  extract:
+    access_token: [ json, '$.access_token', 0 ]
+    expires_in: [json, '$.expires_in', 0 ]
+  validate:
+    equals:
+      断言状态码为200: [ 200, status_code ]
+      断言有效期为7200: [7200, '${read_yaml(expires_in)}']
+#    contains:
+#      断言包含access_token: [ access_token, text ]
+#    db_equals:
+#      断言返回结果中等于sql查询的内容: ['select email from pw_user where uid=1', text]
+#    db_contains:
+#      断言返回结果中包含sql查询的内容: ['select email from pw_user where uid=1', text]

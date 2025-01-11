@@ -1,0 +1,129 @@
+{
+  "uid" : "fe246e161c788eff",
+  "name" : "成功上传文件",
+  "fullName" : "testcases.test_all_case.TestAllCase#test_upload_files",
+  "historyId" : "ce1dcfb8eece6bf38c6309d9f74d2aea",
+  "time" : {
+    "start" : 1727836887344,
+    "stop" : 1727836887848,
+    "duration" : 504
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1727836885556,
+      "stop" : 1727836885556,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1727836885556,
+      "stop" : 1727836885556,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "clean_yaml",
+    "time" : {
+      "start" : 1727836885556,
+      "stop" : 1727836885556,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "595bede6552c091d",
+      "name" : "log",
+      "source" : "595bede6552c091d.txt",
+      "type" : "text/plain",
+      "size" : 1340
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "微信公众号"
+  }, {
+    "name" : "story",
+    "value" : "上传文件"
+  }, {
+    "name" : "epic",
+    "value" : "项目名称：码尚教育"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_all_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAllCase"
+  }, {
+    "name" : "host",
+    "value" : "PC-20221118TCOJ"
+  }, {
+    "name" : "thread",
+    "value" : "2864-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_all_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "caseinfo",
+    "value" : "{'feature': '微信公众号', 'story': '上传文件', 'title': '成功上传文件', 'request': {'method': 'post', 'url': 'https://api.weixin.qq.com/cgi-bin/media/uploadimg', 'params': {'access_token': '${read_yaml(access_token)}'}, 'files': {'media': 'E:\\\\\\\\picture\\\\\\\\unsave.jpg'}}, 'validate': None}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fe246e161c788eff.json",
+  "parameterValues" : [ "{'feature': '微信公众号', 'story': '上传文件', 'title': '成功上传文件', 'request': {'method': 'post', 'url': 'https://api.weixin.qq.com/cgi-bin/media/uploadimg', 'params': {'access_token': '${read_yaml(access_token)}'}, 'files': {'media': 'E:\\\\\\\\picture\\\\\\\\unsave.jpg'}}, 'validate': None}" ]
+}

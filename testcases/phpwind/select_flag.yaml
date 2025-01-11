@@ -1,0 +1,10 @@
+-
+  feature: 微信公众号
+  story: 查询标签
+  title: 成功查询标签
+  request:
+    method: get
+    url: https://api.weixin.qq.com/cgi-bin/tags/get
+    params:
+      access_token: ${read_yaml(access_token)}
+  validate: null

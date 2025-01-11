@@ -1,0 +1,129 @@
+{
+  "uid" : "9554f4b622adb8e8",
+  "name" : "成功登录shopxo",
+  "fullName" : "testcases.test_all_case.TestAllCase#test_login_shopxo",
+  "historyId" : "cd910d6e47cbeb1cddde0133eb41c827",
+  "time" : {
+    "start" : 1727836886550,
+    "stop" : 1727836886648,
+    "duration" : 98
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1727836885556,
+      "stop" : 1727836885556,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1727836885556,
+      "stop" : 1727836885556,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "clean_yaml",
+    "time" : {
+      "start" : 1727836885556,
+      "stop" : 1727836885556,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b0005e3c83cee672",
+      "name" : "log",
+      "source" : "b0005e3c83cee672.txt",
+      "type" : "text/plain",
+      "size" : 1085
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "商城模块"
+  }, {
+    "name" : "story",
+    "value" : "登录shopxo"
+  }, {
+    "name" : "epic",
+    "value" : "项目名称：码尚教育"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_all_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAllCase"
+  }, {
+    "name" : "host",
+    "value" : "PC-20221118TCOJ"
+  }, {
+    "name" : "thread",
+    "value" : "2864-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_all_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "caseinfo",
+    "value" : "{'extract': {'msg': ['json', '$.msg', 0], 'token': ['text', '\"token\":\"(.*?)\"', 0]}, 'feature': '商城模块', 'request': {'json': {'accounts': 'baili123', 'pwd': 'baili123', 'type': 'username', 'verify': 'rib5'}, 'method': 'post', 'params': {'s': 'user/login'}, 'url': '${env(shopxo_base_url)}/api.php'}, 'story': '登录shopxo', 'title': '成功登录shopxo', 'validate': {'equals': {'msg内容正确': ['密码错误', '${read_yaml(msg)}'], '断言状态码为200': [200, 'status_code']}}}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9554f4b622adb8e8.json",
+  "parameterValues" : [ "{'extract': {'msg': ['json', '$.msg', 0], 'token': ['text', '\"token\":\"(.*?)\"', 0]}, 'feature': '商城模块', 'request': {'json': {'accounts': 'baili123', 'pwd': 'baili123', 'type': 'username', 'verify': 'rib5'}, 'method': 'post', 'params': {'s': 'user/login'}, 'url': '${env(shopxo_base_url)}/api.php'}, 'story': '登录shopxo', 'title': '成功登录shopxo', 'validate': {'equals': {'msg内容正确': ['密码错误', '${read_yaml(msg)}'], '断言状态码为200': [200, 'status_code']}}}" ]
+}
